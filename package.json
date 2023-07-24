@@ -3,7 +3,9 @@
     "bcrypt": "^5.1.0",
     "connect-flash": "^0.1.1",
     "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
     "express-session": "^1.17.3",
+    "mustache-express": "^1.3.2",
     "mysql2": "^3.5.2",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0",
@@ -11,5 +13,14 @@
   },
   "devDependencies": {
     "@types/bcrypt": "^5.0.0"
-  }
+  },
+  "name": "login",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC"
 }
